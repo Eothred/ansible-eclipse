@@ -1,12 +1,8 @@
-## alban.andrieu.eclipse
+## ansible.eclipse
 
-[![Travis CI](http://img.shields.io/travis/AlbanAndrieu/ansible-eclipse.svg?style=flat)](http://travis-ci.org/AlbanAndrieu/ansible-eclipse) [![Branch](http://img.shields.io/github/tag/AlbanAndrieu/ansible-eclipse.svg?style=flat-square)](https://github.com/AlbanAndrieu/ansible-eclipse/tree/master) [![Donate](https://img.shields.io/gratipay/AlbanAndrieu.svg?style=flat)](https://www.gratipay.com/AlbanAndrieu)  [![Ansible Galaxy](http://img.shields.io/badge/galaxy-alban.andrieu.eclipse-blue.svg?style=flat)](https://galaxy.ansible.com/list#/roles/1776) [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
-
-Ensures that eclipse is properly installed and configured on `Ubuntu` using `Ansible` script.
-Default settings is using Eclipse luna.
+Ensures that eclipse is properly installed and configured on `CentOS` using `Ansible` script.
+Default settings is using Eclipse Mars.
 This ``Simple`` role allows you to install [Eclipse](https://www.eclipse.org) with basic plugins. 
-
-This playbook is be used by [Docker Hub](https://hub.docker.com) to create a [Docker](http://docker.io) image.      
 
 Taken from
 ------------------
@@ -16,7 +12,7 @@ https://www.eclipse.org/downloads/
 ###Requirements
 
 Tools which might be needed by [Eclipse](https://www.eclipse.org), like jdk, maven...
-See available playbook on [GitHub](https://github.com/search?p=3&q=user%3AAlbanAndrieu+ansible%2A&type=Repositories)
+See available playbook on [Bitbucket](https://bitbucket.org/europeanspallationsource/ansible-eclipse/)
 
 ### Installation
 
@@ -120,6 +116,8 @@ Run the following command :
 `alban.andrieu.eclipse` role was written by:
 - [Alban Andrieu](fr.linkedin.com/in/nabla/) | [e-mail](mailto:alban.andrieu@free.fr) | [Twitter](https://twitter.com/AlbanAndrieu) | [GitHub](https://github.com/AlbanAndrieu)
 - License: [GPLv3](https://tldrlegal.com/license/gnu-general-public-license-v3-%28gpl-3%29)
+
+Modifications for ESS by Yngve Inntjore Levinsen.
 
 ### Feedback, bug-reports, requests, ...
 
