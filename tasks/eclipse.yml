@@ -296,7 +296,7 @@
 # - include: features.yml
 ### Start features.yml
 ## Fix needed until ansible >= 2.0
-- shell: eclipse -application org.eclipse.equinox.p2.director -noSplash -repository {{ item.repo }} -installIUs {{ item.feature }}
+- shell: "{{ eclipse }} -application org.eclipse.equinox.p2.director -noSplash -repository {{ item.repo }} -installIUs {{ item.feature }}"
   with_items:
     - { repo: 'http://update.eclemma.org/', feature: 'com.mountainminds.eclemma.feature.feature.group'}
     - { repo: 'http://download.eclipse.org/technology/m2e/releases/', feature: 'org.eclipse.m2e.feature.feature.group'}
