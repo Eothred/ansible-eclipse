@@ -71,7 +71,7 @@
 
 - name: eclipse | Create a link to eclipse (1)
   file:
-    src="{{ eclipse }}"
+    src="{{ eclipse_home }}"
     dest="{{ eclipse_base_dir }}/eclipse-{{ eclipse_major }}"
     state=link
     owner="{{ eclipse_owner }}"
@@ -81,7 +81,7 @@
 
 - name: eclipse | Create a link to eclipse (2)
   file:
-    src="{{ eclipse }}"
+    src="{{ eclipse_home }}"
     dest="{{ eclipse_link_base_dir }}/eclipse-{{ eclipse_major }}"
     state=link
     owner="{{ eclipse_owner }}"
